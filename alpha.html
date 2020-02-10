@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  
+  
+  </script>
+  <link rel="stylesheet" type="text/css" href="beta.css">
+
+</head>
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <script>
+    var display = function(block_name, title) {
+  // Toogle Block
+  $('.middleBlock').css('display', 'none');
+  $('#' + block_name + '').css('display', 'block');
+
+  // Change Title Color
+  $('.menu').removeClass('active');
+  $(title).addClass('active');
+}
+
+$('#subScription').on('click', function() {
+  display('firstBlock', $(this));
+});
+
+$('#inStore').on('click', function() {
+  display('secondBlock', $(this));
+});
+
+$('#onLine').on('click', function() {
+  display('thirdBlock', $(this));
+});
+  </script>
+<div class="midSection sections">
+  <div class="line"></div>
+  <div class="sectionHeader">How to purchase</div>
+  <div class="menuLine">
+    <div id="subScription" class="menu active">Subscription</div>
+    <div id="inStore" class="menu">current Issues</div>
+    <div id="onLine" class="menu">Digital Edition</div>
+  </div>
+  <div id="firstBlock" class="middleBlock">
+    <div class="firstBlockContent leftblock">
+      <h3>"subscribe"<br>"to blah"</h3>
+    </div>
+  </div>
+  <div id="secondBlock" class="middleBlock" style="background:blue;">
+    <div class="secondBlockContent leftblock">
+      <h3>"subscribe"<br>"to blah"</h3>
+    </div>
+  </div>
+  <div id="thirdBlock" class="middleBlock" style="background:lightgreen;">
+    <div class="secondBlockContent leftblock">
+      <h3>"subscribe"<br>"to blah"</h3>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+

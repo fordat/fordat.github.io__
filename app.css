@@ -1,0 +1,56 @@
+h1 {
+	color: red;
+/*	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px solid purple;
+}
+
+li {
+	color: green;
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.fullscreen-bg__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__img {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__img {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+body {
+	background: white;
+  	width: 100%;
+	position: absolute;
+  	top: 0;
+  	left: 0;
+
+}

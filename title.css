@@ -1,0 +1,73 @@
+* {margin:0;padding:0}
+html,body{height:100%;width:100%;}
+html {
+	background-image: url(img/autumn.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body { 
+	text-align:center;
+}
+li {
+    display: inline;
+    margin: 0 7px 3px 7px;
+}
+ul {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+a:link {
+	color: #f8f8f8;
+	text-decoration: none;
+	margin: 0 0 3px 0;
+}
+a:visited {
+	color: #f8f8f8;
+	text-decoration: none;
+}
+a:hover {
+  color: #d1d6e0;
+  -moz-transition: color .3s ease-out;
+  -webkit-transition: color .3s ease-out;
+}
+#outer{
+	height:100%;
+	width:100%;
+	display:table;
+	vertical-align:middle;
+}
+#container {
+	text-align: center;
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+	color: white;
+	padding-bottom:0px;
+	font-size: 80px;
+	color: #f8f8f8;
+	font-family: "Neuton", serif;
+	font-weight: 800; 
+}
+
+
+@media (max-width:320px) {
+  #container {
+  	font-size: 40px;
+  }
+  html {
+    background-image: url(img/amobile.gif);
+  }
+}
+@media (max-width:480px) {
+
+  #container {
+  	font-size: 40px;
+  }
+  html {
+    background-image: url(img/amobile.gif);
+  }
+}
