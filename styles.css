@@ -1,5 +1,5 @@
 html {
-  background-image: url(img/autumn.gif);
+  background-image: url(img/grid2.gif);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -180,7 +180,7 @@ a.wlink:hover {
     display: none;
   }
   html {
-    background-image: url(img/amobile.gif);
+    background-image: url(img/grid3.gif);
   }
 }
 @media (max-width:480px) {
@@ -198,7 +198,7 @@ a.wlink:hover {
     display: none;
   }
   html {
-    background-image: url(img/amobile.gif);
+    background-image: url(img/grid3.gif);
   }
 }
 

@@ -1,7 +1,7 @@
 * {margin:0;padding:0}
 html,body{height:100%;width:100%;}
 html {
-	background-image: url(img/autumn.gif);
+	background-image: url(img/grid2.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ a:hover {
   	font-size: 40px;
   }
   html {
-    background-image: url(img/amobile.gif);
+    background-image: url(img/grid3.gif);
   }
 }
 @media (max-width:480px) {
@@ -68,6 +68,6 @@ a:hover {
   	font-size: 40px;
   }
   html {
-    background-image: url(img/amobile.gif);
+    background-image: url(img/grid3.gif);
   }
 }
